@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-.placeholder {
-  height: 1000px;
-}
-
 /* desktop navbar */
 
 .top_nav {
@@ -56,6 +52,20 @@ img:hover {
 
 #go_right {
   margin-left: 15px;
+}
+
+.in_images > a {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(225, 225, 225, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: #3581f4;
+}
+
+.in-images {
+  background-image: url(https://d.newsweek.com/en/full/1701186/ph3095-01.jpg?w=500&h=333&f=b8162daf93e087918df15d58a79bfc35);
+  height: 200px;
 }
 
 .nav_bot1 > a {
@@ -106,6 +116,10 @@ ul > li {
   height: 25px;
   border-radius: 24px;
   background-color: #ffe400;
+}
+
+.div_gap1 {
+  column-gap: 20px;
 }
 
 .nav_bar_bot {
@@ -181,6 +195,52 @@ ul > li {
 #menu {
   color: #fb9b93;
   font-size: larger;
+}
+
+/* phone main */
+
+.section2_under {
+  margin-top: 10px;
+  row-gap: 5px;
+}
+
+.debate_cont {
+  row-gap: 20px;
+}
+
+.text_div {
+  column-gap: 20px;
+}
+
+.col3_title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img_litle {
+  width: 95px;
+  height: 95px;
+}
+
+.col3_text {
+  font-weight: bold;
+  color: #555;
+}
+
+.small_icon {
+  width: 63px;
+  height: 63px;
+}
+
+.line {
+  height: 3px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.special_rec {
+  margin-top: 30px;
 }
 
 /* phone footer */
