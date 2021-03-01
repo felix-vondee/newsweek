@@ -308,3 +308,25 @@ footer {
     z-index: 3;
   }
 }
+
+@media (min-width: 992px) {
+  #nav_hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    right: 0;
+    margin: auto;
+  }
+
+  main {
+    margin-top: 194px;
+  }
+
+  #phone_navbar {
+    margin: -50px auto;
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+  }
+}
