@@ -1,63 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Newsweek</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script
+      src="https://kit.fontawesome.com/37124d06d1.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="m-auto h-auto">
-      <!-- desktop navbar-->
-      <nav class="d-sm-none d-lg-block" id="nav_hide">
-        <div class="flex-row justify-content-between align-items-end d-flex top_nav">
-            <p id="go_right">Wed, Jan 20, 2021</p>
-            <div>
-                <img src="images/logo-white.svg" alt="logo">
+    <!-- desktop navbar-->
+    <nav class="d-sm-none d-lg-block" id="nav_hide">
+      <div
+        class="flex-row justify-content-between align-items-end d-flex top_nav"
+      >
+        <p id="go_right">Wed, Jan 20, 2021</p>
+        <div>
+          <img src="images/logo-white.svg" alt="logo" />
+        </div>
+        <div class="top_mar">
+          <button
+            type="button"
+            class="btn login"
+            style="color: white; font-weight: bold"
+          >
+            Login
+          </button>
+          <button
+            type="button"
+            class="btn btn-warning button"
+            style="
+              border-radius: 23px;
+              font-weight: bold;
+              color: black;
+              height: 30px;
+              background-color: #ffe400;
+            "
+          >
+            SUBSCRIBE >
+          </button>
+        </div>
+      </div>
+      <div>
+        <ul class="justify-content-start m-0 list-unstyled d-flex nav_bar_mid">
+          <li style="border: none"><a href="#">U.S.</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Busniess</a></li>
+          <li><a href="#">Tech&Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Newsgeek</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">The Debate</a></li>
+          <li><a href="#">Experts</a></li>
+          <li><a href="#">Vantage</a></li>
+          <li
+            class="d-flex search_cont align-items-center"
+            style="border: none"
+          >
+            <div class="d-flex search_part">
+              <p style="color: #b7b7b7; margin: auto">Search</p>
+              <i class="fas fa-search"></i>
             </div>
-            <div class="top_mar">
-                <button type="button" class="btn login" style="color: white; font-weight: bold;">Login</button>
-                <button type="button" class="btn btn-warning button" style="border-radius: 23px; font-weight: bold; color: black; height: 30px; background-color: #ffe400;">SUBSCRIBE ></button>
-            </div>
-        </div>
-        <div >
-            <ul class="justify-content-start m-0 list-unstyled d-flex nav_bar_mid ">
-                <li style="border: none;"><a href="#">U.S.</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Busniess</a></li>
-                <li><a href="#">Tech&Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Newsgeek</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">The Debate</a></li>
-                <li><a href="#">Experts</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li class="d-flex search_cont align-items-center" style="border: none;"><div class="d-flex search_part">
-                    <p style="color: #b7b7b7; margin: auto;">Search</p>
-                    <i class="fas fa-search"></i>
-                </div></li>
-                <li id="border_red" style="height: 100%;"></li>
-            </ul>
-        </div>
-        <div class="row d-flex last_nav">
-            <ul class="col-lg-10 d-flex list-unstyled justify-content-start nav_bar_bot">
-                <li style="font-weight: bold;"><span>TREDING</span></li>
-                <li><a href="#">JOE BIDEN</a></li>
-                <li><a href="#">DONALD TRUMP</a></li>
-                <li><a href="#">INAUGURATION</a></li>
-                <li><a href="#">CORONAVIRUS</a></li>
-                <li><a href="#">STIMULUS PACKAGE</a></li>
-                <li><a href="#">VACCINE</a></li>
-                <li><a href="#">CAPITOL RIOTS</a></li>
-            </ul>
-            <div class="col-lg-2"></div>
-        </div>
-      </nav>
+          </li>
+          <li id="border_red" style="height: 100%"></li>
+        </ul>
+      </div>
+      <div class="row d-flex last_nav">
+        <ul
+          class="col-lg-10 d-flex list-unstyled justify-content-start nav_bar_bot"
+        >
+          <li style="font-weight: bold"><span>TREDING</span></li>
+          <li><a href="#">JOE BIDEN</a></li>
+          <li><a href="#">DONALD TRUMP</a></li>
+          <li><a href="#">INAUGURATION</a></li>
+          <li><a href="#">CORONAVIRUS</a></li>
+          <li><a href="#">STIMULUS PACKAGE</a></li>
+          <li><a href="#">VACCINE</a></li>
+          <li><a href="#">CAPITOL RIOTS</a></li>
+        </ul>
+        <div class="col-lg-2"></div>
+      </div>
+    </nav>
     <!-- phone navbar-->
     <nav class="d-flex flex-row justify-content-center" id="phone_navbar">
       <div
@@ -76,23 +114,52 @@
       </div>
     </nav>
     <div class="placeholder"></div>
-   <!--FOOTER-->
-   <footer class="container-fluid col-lg-11 col-md-12 col-lg-offset-3 m-auto bottom-0 p-4">
-    <div class="row pb-md-2 nav_top">
+    <!--FOOTER-->
+    <footer
+      class="container-fluid col-lg-11 col-md-12 col-lg-offset-3 m-auto bottom-0 p-4"
+    >
+      <div class="row pb-md-2 nav_top">
         <div class="row col-12 col-md-8 d-flex nav_top1">
-            <div class="">
-                <img src="images/logo-red.svg" id="logo_bot" alt="logo">
-            </div>
-            <p class="ml-0 copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
+          <div class="">
+            <img src="images/logo-red.svg" id="logo_bot" alt="logo" />
+          </div>
+          <p class="ml-0 copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
         </div>
         <div class="col-12 col-md-4 d-flex nav_top2">
-            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
-            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-            <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-            <a href="#"><i class="fas fa-wifi fa-lg"></i> </a>
+          <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#"><i class="fas fa-wifi fa-lg"></i> </a>
         </div>
-    </div>
+      </div>
+
+      <div class="row mt-4 nav_bot d-flex d-md-flex flex-column border_top">
+        <div class="d-flex nav_bot1">
+          <span id="title_editors">Editions:</span>
+          <a href="#">U.S. Edition</a>
+          <a href="#">日本</a>
+          <a href="#">Pakistan</a>
+          <a href="#">Polska</a>
+          <a href="#">România</a>
+        </div>
+        <div class="d-flex nav_bot2">
+          <ul class="list-unstyled d-flex flex-wrap text_deco">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Corrections</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Editorial Guidelines</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy </a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Terms of Sale</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Announcements</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <!-- Optional JavaScript -->
