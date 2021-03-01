@@ -100,6 +100,7 @@ ul > li {
   border-top: 1px solid #f4f5f7;
   border-bottom: 1px solid #f4f5f7;
 }
+
 .first_button {
   font-size: 12px;
   height: 25px;
@@ -143,4 +144,73 @@ ul > li {
 .nav_bar_bot > li > a:hover {
   color: red;
   text-decoration: none;
+}
+
+/* phone navbar */
+
+#phone_navbar {
+  background-color: #f72210;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#phone_cont {
+  width: 95%;
+}
+
+#phone_cont > div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+#phone_navbar > div > img {
+  cursor: pointer;
+  width: 132px;
+  height: 30px;
+}
+
+#user {
+  color: #fdc7c3;
+}
+
+#menu {
+  color: #fb9b93;
+  font-size: larger;
+}
+
+/* phone footer */
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.nav_top1 {
+  flex-direction: column;
+}
+
+.nav_top {
+  margin-bottom: 20px;
+}
+
+#logo_bot {
+  width: 250px;
+}
+
+.nav_top2 {
+  column-gap: 15px;
+  margin-top: 12px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #666;
+  margin: auto;
+  margin-top: 12px;
 }
