@@ -1,445 +1,679 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Newsweek</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body class="m-auto h-auto">
-      <!-- desktop navbar-->
-      <nav class="d-sm-none d-lg-block" id="nav_hide">
-        <div class="flex-row justify-content-between align-items-end d-flex top_nav">
-            <p id="go_right">Wed, Jan 20, 2021</p>
-            <div>
-                <a href="#"><img src="images/logo-white.svg" alt="logo"></a>
-            </div>
-            <div class="top_mar">
-                <button type="button" class="btn login" style="color: white; font-weight: bold;">Login</button>
-                <button type="button" class="btn btn-warning button" style="border-radius: 23px; font-weight: bold; color: black; height: 30px; background-color: #ffe400;">SUBSCRIBE ></button>
-            </div>
-        </div>
-        <div >
-            <ul class="justify-content-start m-0 list-unstyled d-flex nav_bar_mid ">
-                <li style="border: none;"><a href="#">U.S.</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Busniess</a></li>
-                <li><a href="#">Tech&Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Newsgeek</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">The Debate</a></li>
-                <li><a href="#">Experts</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li class="d-flex search_cont align-items-center" style="border: none;"><div class="d-flex search_part">
-                    <p style="color: #b7b7b7; margin: auto;">Search</p>
-                    <i class="fas fa-search"></i>
-                </div></li>
-                <li id="border_red" style="height: 100%;"></li>
-            </ul>
-        </div>
-        <div class="row d-flex last_nav">
-            <ul class="col-lg-10 d-flex list-unstyled justify-content-start nav_bar_bot">
-                <li style="font-weight: bold;"><span>TREDING</span></li>
-                <li><a href="#">JOE BIDEN</a></li>
-                <li><a href="#">DONALD TRUMP</a></li>
-                <li><a href="#">INAUGURATION</a></li>
-                <li><a href="#">CORONAVIRUS</a></li>
-                <li><a href="#">STIMULUS PACKAGE</a></li>
-                <li><a href="#">VACCINE</a></li>
-                <li><a href="#">CAPITOL RIOTS</a></li>
-            </ul>
-            <div class="col-lg-2"></div>
-        </div>
-      </nav>
-    <!-- phone navbar-->
-    <nav class="d-flex flex-row justify-content-center" id="phone_navbar">
-      <div
-        id="phone_cont"
-        class="d-flex align-items-center justify-content-between">
-        <a href="#" ><img src="images/logo-white.svg" alt="logo" /></a>
-        <div>
-          <h3 id="hide">LOGIN</h3>
-          <i id="user" class="fas fa-user"></i>
-          <button class="btn first_button btn-sm" type="button">
-            <strong>SUBSCRIBE ></strong>
-          </button>
-          <i id="menu" class="fas fa-bars"></i>
-        </div>
+<head>
+  <title>Newsweek</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="m-auto h-auto">
+  <!-- desktop navbar-->
+  <nav class="d-sm-none d-lg-block" id="nav_hide">
+    <div class="flex-row justify-content-between align-items-end d-flex top_nav">
+      <p id="go_right">Wed, Jan 20, 2021</p>
+      <div>
+        <a href="#"><img src="images/logo-white.svg" alt="logo"></a>
       </div>
-    </nav>
-    <!--MAIN -->
-  <main>
-      <!--MAIN 1-->
-    <div class="hide_phone">
-        <div class="topstory">
+      <div class="top_mar">
+        <button type="button" class="btn login" style="color: white; font-weight: bold;">Login</button>
+        <button type="button" class="btn btn-warning button"
+          style="border-radius: 23px; font-weight: bold; color: black; height: 30px; background-color: #ffe400;">SUBSCRIBE
+          ></button>
+      </div>
+    </div>
+    <div>
+      <ul class="justify-content-start m-0 list-unstyled d-flex nav_bar_mid ">
+        <li style="border: none;"><a href="#">U.S.</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Busniess</a></li>
+        <li><a href="#">Tech&Science</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Newsgeek</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">The Debate</a></li>
+        <li><a href="#">Experts</a></li>
+        <li><a href="#">Vantage</a></li>
+        <li class="d-flex search_cont align-items-center" style="border: none;">
+          <div class="d-flex search_part">
+            <p style="color: #b7b7b7; margin: auto;">Search</p>
+            <i class="fas fa-search"></i>
+          </div>
+        </li>
+        <li id="border_red" style="height: 100%;"></li>
+      </ul>
+    </div>
+    <div class="row d-flex last_nav">
+      <ul class="col-lg-10 d-flex list-unstyled justify-content-start nav_bar_bot">
+        <li style="font-weight: bold;"><span>TREDING</span></li>
+        <li><a href="#">JOE BIDEN</a></li>
+        <li><a href="#">DONALD TRUMP</a></li>
+        <li><a href="#">INAUGURATION</a></li>
+        <li><a href="#">CORONAVIRUS</a></li>
+        <li><a href="#">STIMULUS PACKAGE</a></li>
+        <li><a href="#">VACCINE</a></li>
+        <li><a href="#">CAPITOL RIOTS</a></li>
+      </ul>
+      <div class="col-lg-2"></div>
+    </div>
+  </nav>
+  <!-- phone navbar-->
+  <nav class="d-flex flex-row justify-content-center" id="phone_navbar">
+    <div id="phone_cont" class="d-flex align-items-center justify-content-between">
+      <a href="#"><img src="images/logo-white.svg" alt="logo" /></a>
+      <div>
+        <h3 id="hide">LOGIN</h3>
+        <i id="user" class="fas fa-user"></i>
+        <button class="btn first_button btn-sm" type="button">
+          <strong>SUBSCRIBE ></strong>
+        </button>
+        <i id="menu" class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!--MAIN -->
+   <!--MAIN 1 -->
+   <div class=" hide_phone">
+    <div class="topstory">
         <h4><a href="#">TOP STORY</a></h4>
-        <div class="d-flex align-item-end background2">
-          <p>POLITICS</p>
+        <div class="d-flex align-items-end background2">
+            <p>POLITICS</p>
         </div>
         <div class="d-flex flex-column section2_under">
-          <h6><a href="#">Joe Biden's First Executive Actions Undo Many of Donald Trump's</a></h6>
-          <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the
-            first taken as he begins his tenure.</p>
+            <h6><a>Joe Biden's First Executive Actions Undo Many of Donald Trump's</a></h6>
+            <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the
+                first taken as he begins his tenure.</p>
         </div>
-      </div>
-
-      <div class="featured">
-          <h4><a href="#">FEATURED STORIES</a></h4>
-          <div class="d-flex align-items-end background1">
+    </div>
+    <div class="featured">
+        <h4><a href="#">FEATURED STORIES</a></h4>
+        <div class="d-flex align-items-end background1">
             <p>U.S.</p>
-          </div>
-          <div class="d-flex flex-column section2_under">
+        </div>
+        <div class="d-flex flex-column section2_under">
             <h6><a href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h6>
             <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon
-              and rapper Lil Wayne.</p>
-          </div>
-      </div>
-
-      <div class="featured">
+                and rapper Lil Wayne.</p>
+        </div>
+    </div>
+    <div class="featured">
         <div class="d-flex align-items-end background1">
-          <p>POLITICS</p>
+            <p>POLITICS</p>
         </div>
         <div class="d-flex flex-column section2_under">
-          <h6><a href="#">Donald Trump Can Issue Secret Pardons, but They're Risky</a></h6>
-          <p>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor Rudy
-            Giuliani.</p>
+            <h6><a href="#">Donald Trump Can Issue Secret Pardons, but They're Risky</a></h6>
+            <p>Trump chose not to issue pardons for himself of his personal attorney, former New York Mayor Rudy
+                Giuliani.</p>
         </div>
     </div>
-
     <div class="featured">
-      <div class="d-flex align-items-end background1">
-        <p>EXPERTS</p>
-      </div>
-      <div class="d-flex flex-column section2_under">
-        <h6><a href="#">Newsweek Announces Launch of the Newsweek Expert Forum</a></h6>
-        <p>Newsweek Expert Forum creates cohort of thought leaders, pioneering thinkers to share insights,
-          expertise from range of professions, industries.</p>
-      </div>
-  </div>
-
-  <div class="featured">
-    <div class="d-flex align-items-end background1">
-      <p>POLITICS</p>
+        <div class="d-flex align-items-end background1">
+            <p>EXPERTS</p>
+        </div>
+        <div class="d-flex flex-column section2_under">
+            <h6><a href="#">Newsweek Announces Launch of the Newsweek Expert Forum </a></h6>
+            <p>Newsweek Expert Forum creates cohort of thought leaders, pioneering thinkers to share insights,
+                expertise from range of professions, industries.</p>
+        </div>
     </div>
-    <div class="d-flex flex-column section2_under">
-      <h6><a href="#">Can Joe Biden Rescind Donald Trump's Pardons?</a></h6>
-      <p>The president did not issue pardons for himself, his children or for former New York Mayor Rudy
-        Giuliani.</p>
+    <div class="featured">
+        <div class="d-flex align-items-end background1">
+            <p>POLITICS</p>
+        </div>
+        <div class="d-flex flex-column section2_under">
+            <h6><a href="#">Can Joe Biden Rescind Donald Trump's Pardons?</a></h6>
+            <p>The president did not issue pardons for himself, his children or for former New York Mayor Rudy
+                Giuliani.</p>
+        </div>
     </div>
-</div>
-
-<div class="featured">
-  <div class="d-flex align-items-end background1">
-    <p>POLITICS</p>
-  </div>
-  <div class="d-flex flex-column section2_under">
-    <h6><a href="#">Joe Biden Immigration Orders Upend Donald Trump's Legacy</a></h6>
-    <p>The Biden Administration will issue an order stopping construction of the border wall on its
-      first day.</p>
-  </div>
- </div>
-
- <div class="title_cont_1" >
-   <h4><a href="#">THE DEBATE</a></h4>
-   <div class="d-flex flex-column debate_cont">
-     <div class="d-flex flex-row text_div">
-       <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-       <div>
-         <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-         <p class="col3_text">BY FROMA HARROP</p>
-       </div>
-     </div>
-
-     <div class="line"></div>
-
-     <div class="d-flex flex-row-reverse text_div">
-      <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-      <div>
-        <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-        <p class="col3_text">BY FROMA HARROP</p>
-      </div>
+    <div class="featured">
+        <div class="d-flex align-items-end background1">
+            <p>POLITICS</p>
+        </div>
+        <div class="d-flex flex-column section2_under">
+            <h6><a href="#">Joe Biden Immigration Orders Upend Donald Trump's Legacy</a></h6>
+            <p>The Biden Administration will issue an order stopping construction of the border wall on its
+                first day.</p>
+        </div>
+    </div>
+    <div class="title_cont_l">
+        <h4><a href="#">THE DEBATE</a></h4>
+        <div class="d-flex flex-column debate_cont">
+            <div class="d-flex text_div flex-row">
+                <img class="small_icon"
+                    src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+                    alt="image">
+                <div>
+                    <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+                    <p class="col3_text">BY FROMA HARROP</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="d-flex text_div flex-row-reverse">
+                <img class="small_icon"
+                    src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+                    alt="image">
+                <div>
+                    <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+                    <p class="col3_text">BY FROMA HARROP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="opinion_title">
+        <h4><a href="#">OPINION</a></h4>
+        <div class="d-flex text_div flex-row">
+            <img class="small_icon"
+                src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+                alt="image">
+            <div>
+                <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+                <p class="col3_text">BY FROMA HARROP</p>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex text_div flex-row">
+        <img class="small_icon"
+            src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+            alt="image">
+        <div>
+            <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+            <p class="col3_text">BY FROMA HARROP</p>
+        </div>
+    </div>
+    <div class="d-flex text_div flex-row">
+        <img class="small_icon"
+            src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+            alt="image">
+        <div>
+            <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+            <p class="col3_text">BY FROMA HARROP</p>
+        </div>
+    </div>
+    <div class="d-flex text_div flex-row">
+        <img class="small_icon"
+            src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+            alt="image">
+        <div>
+            <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+            <p class="col3_text">BY FROMA HARROP</p>
+        </div>
+    </div>
+    <div class="d-flex text_div flex-row">
+        <img class="small_icon"
+            src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+            alt="image">
+        <div>
+            <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+            <p class="col3_text">BY FROMA HARROP</p>
+        </div>
+    </div>
+    <div class="d-flex text_div flex-row">
+        <img class="small_icon"
+            src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+            alt="image">
+        <div>
+            <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+            <p class="col3_text">BY FROMA HARROP</p>
+        </div>
+    </div>
+    <div class="d-flex text_div flex-row">
+        <img class="small_icon"
+            src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b"
+            alt="image">
+        <div>
+            <a class="col3_title" href="#">Media Have Every Right to Cancel Trump</a>
+            <p class="col3_text">BY FROMA HARROP</p>
+        </div>
+    </div>
+    <div class="special_rec col-12">
+        <div class="in_images d-flex align-items-end">
+            <a href="#">SPONSORED INSIGHT</a>
+        </div>
+        <div class="col-12 border rounded">
+            <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+            <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
+                Hokkaido offers an experience that is completely different from the rest of Japan.</p>
+        </div>
+    </div>
+    <div class="special_rec col-12">
+        <div class="in_images d-flex align-items-end">
+            <a href="#">SPONSORED INSIGHT</a>
+        </div>
+        <div class="col-12 border rounded">
+            <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+            <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
+                Hokkaido offers an experience that is completely different from the rest of Japan.</p>
+        </div>
+    </div>
+    <div class="special_rec col-12">
+        <div class="in_images d-flex align-items-end">
+            <a href="#">RANKINGS</a>
+        </div>
+        <div class="col-12 border rounded">
+            <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+            <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
+                Hokkaido offers an experience that is completely different from the rest of Japan.</p>
+        </div>
+    </div>
+    <div class="special_rec col-12">
+        <div class="in_images d-flex align-items-end">
+            <a href="#">SPONSORED INSIGHT</a>
+        </div>
+        <div class="col-12 border rounded">
+            <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+            <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
+                Hokkaido offers an experience that is completely different from the rest of Japan.</p>
+        </div>
+    </div>
+    <div class="part1">
+        <h4><a href="#">MORE STORIES</a></h4>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap1">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+    </div>
+    <div class="part2">
+        <h4><a href="#">LATEST NEWS</a></h4>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+        <article class="d-flex div_gap2">
+            <img class="img_litle"
+                src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f"
+                alt="image">
+            <div>
+                <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a>
+                </h5>
+                <p>The incoming president has not said what he plans to do with the tens of thousands of
+                    asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+            </div>
+        </article>
+    </div>
+    <div class="test3 flex-column d-flex">
+        <div class="special">
+            <h4><a href="#">MY TURN</a></h4>
+            <div class="m-auto row w-100">
+                <article class="col-sm-12 col-md-4">
+                    <h1 class="art">None</h1>
+                    <img class="small_img"
+                        src="https://d.newsweek.com/en/full/1710127/marriage-same-sex-marriage-best-friends.webp?w=700&h=700&f=8af361eff5c471dbb382bce94f163923"
+                        alt="image">
+                    <a href="#" class="col2_title">'I Married My Best Friend to Avoid Inheritance Tax' </a>
+                </article>
+                <article class="col-sm-12 col-md-4">
+                    <h1 class="art">None</h1>
+                    <img class="small_img"
+                        src="https://d.newsweek.com/en/full/1709421/dogs-special-needs-rescue-rescue-dogs.webp?w=700&h=700&f=37a767168d2f0bdccf150f89757ff857"
+                        alt="image">
+                    <a href="#" class="col2_title">'I've Rescued Hundreds of Special Needs Dogs'</a>
+                </article>
+                <article class="col-sm-12 col-md-4">
+                    <h1 class="art">None</h1>
+                    <img class="small_img"
+                        src="https://d.newsweek.com/en/full/1705436/nick-ut-presidential-medal-freedom-photographer.webp?w=700&h=700&f=34384f65925525d3927501de49470935"
+                        alt="image">
+                    <a href="#" class="col2_title">Why I Accepted Trump's Medal Of Arts</a>
+                </article>
+            </div>
+        </div>
+        <div class="special">
+            <h4><a href="#">CULTURE & TRAVEL</a></h4>
+            <div class="row w-100 m-auto">
+                <article class="col-sm-12 col-md-4">
+                    <h1 class="art">None</h1>
+                    <img class="small_img"
+                        src="https://d.newsweek.com/en/full/1697308/cul-map-happiness-finland.webp?w=700&h=700&l=50&t=46&f=533b6ca30b24eba3bc7f188b3c985294"
+                        alt="image">
+                    <a href="#" class="col2_title"> The Secrets to Happiness Around the World</a>
+                </article>
+                <article class="col-sm-12 col-md-4">
+                    <h1 class="art">None</h1>
+                    <img class="small_img"
+                        src="https://d.newsweek.com/en/full/1691685/uncharted-eco-camp-patagonia.webp?w=700&h=700&f=608a18c262106ddaae1d0e89cd55dd1e"
+                        alt="image">
+                    <a href="#" class="col2_title"> Where We Are Dreaming of Traveling in 2021</a>
+                </article>
+                <article class="col-sm-12 col-md-4">
+                    <h1 class="art">None</h1>
+                    <img class="small_img"
+                        src="https://d.newsweek.com/en/full/1697359/top-100-songs-2020.webp?w=700&h=700&f=738b1493491b9a501f4c92ddab484d33"
+                        alt="image">
+                    <a href="#" class="col2_title"> These Are the Top 100 Songs of 2020</a>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-column gap_need">
+        <div class="form_in">
+            <div class="in_images d-flex align-items-end">
+                <a href="#">SPONSORED INSIGHT</a>
+            </div>
+            <div class="col-12 border rounded">
+                <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+                <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural
+                    spectacles, Hokkaido offers an experience that is completely different from the rest of
+                    Japan.</p>
+            </div>
+        </div>
+        <div class="px-3 py-4 border rounded first_form">
+            <div class="d-flex text-left align-items-center">
+                <a href="#" class="h4 font-weight-bold title_form">N</a>
+                <h5 class="font-weight-bolder col-12">Start your day with our top 5 articles</h5>
+            </div>
+            <form class="row m-auto">
+                <input placeholder="Email Address" type="Email" class="col-12">
+                <button type="button" class="col-12 spec_button rounded bg-red px-6 py-1 mt-3 ">
+                    <span class="text-light font-weight-bolder">FREE SIGN UP</span></button>
+            </form>
+        </div>
+        <div class="form_in">
+            <div class="in_images d-flex align-items-end">
+                <a href="#">SPONSORED INSIGHT</a>
+            </div>
+            <div class="col-12 border rounded">
+                <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+                <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural
+                    spectacles, Hokkaido offers an experience that is completely different from the rest of
+                    Japan.</p>
+            </div>
+        </div>
+        <div class="form_in">
+            <div class="in_images d-flex align-items-end">
+                <a href="#">SPONSORED INSIGHT</a>
+            </div>
+            <div class="col-12 border rounded">
+                <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+                <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural
+                    spectacles, Hokkaido offers an experience that is completely different from the rest of
+                    Japan.</p>
+            </div>
+        </div>
+        <div class="form_in">
+            <div class="in_images d-flex align-items-end">
+                <a href="#">RANKINGS</a>
+            </div>
+            <div class="col-12 border rounded">
+                <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
+                <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural
+                    spectacles, Hokkaido offers an experience that is completely different from the rest of
+                    Japan.</p>
+            </div>
+        </div>
     </div>
    </div>
- </div>
 
- <div class="opinion_title">
-  <h4><a href="#">OPINION</a></h4>
- 
-    <div class="d-flex flex-row text_div">
-      <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-      <div>
-        <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-        <p class="col3_text">BY FROMA HARROP</p>
+  <!--FOOTER-->
+  <footer class="container-fluid col-lg-11 col-md-12 col-lg-offset-3 m-auto bottom-0 p-4">
+    <div class="row pb-md-2 nav_top">
+      <div class="row col-12 col-md-8 d-flex nav_top1">
+        <div class="">
+          <a href="#"><img src="images/logo-red.svg" id="logo_bot" alt="logo" /></a>
+        </div>
+        <p class="ml-0 copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
+      </div>
+      <div class="col-12 col-md-4 d-flex nav_top2">
+        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#"><i class="fas fa-wifi fa-lg"></i> </a>
       </div>
     </div>
- </div>
 
- <div class="d-flex flex-row text_div">
-  <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-  <div>
-    <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-    <p class="col3_text">BY FROMA HARROP</p>
-  </div>
-</div>
-
-<div class="d-flex flex-row text_div">
-  <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-  <div>
-    <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-    <p class="col3_text">BY FROMA HARROP</p>
-  </div>
-</div>
-
-<div class="d-flex flex-row text_div">
-  <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-  <div>
-    <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-    <p class="col3_text">BY FROMA HARROP</p>
-  </div>
-</div>
-
-<div class="d-flex flex-row text_div">
-  <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-  <div>
-    <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-    <p class="col3_text">BY FROMA HARROP</p>
-  </div>
-</div>
-
-<div class="d-flex flex-row text_div">
-  <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-  <div>
-    <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-    <p class="col3_text">BY FROMA HARROP</p>
-  </div>
-</div>
-
-<div class="d-flex flex-row text_div">
-  <img class="small_icon" alt="image" src="https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b">
-  <div>
-    <a href="#" class="col3_title">Media Have Every Right to Cancel Trump</a>
-    <p class="col3_text">BY FROMA HARROP</p>
-  </div>
-</div>
-
-<div class="special_rec col-12">
-  <div class="d-flex in_images align-items-end">
-    <a href="#">SPONSORED INSIGHT</a>
-  </div>
-  <div class="col-12 border rounded">
-    <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
-    <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
-      Hokkaido offers an experience that is completely different from the rest of Japan.</p>
-  </div>
-</div>
-
-<div class="special_rec col-12">
-  <div class="d-flex in_images align-items-end">
-    <a href="#">SPONSORED INSIGHT</a>
-  </div>
-  <div class="col-12 border rounded">
-    <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
-    <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
-      Hokkaido offers an experience that is completely different from the rest of Japan.</p>
-  </div>
-</div>
-
-<div class="special_rec col-12">
-  <div class="d-flex in_images align-items-end">
-    <a href="#">SPONSORED INSIGHT</a>
-  </div>
-  <div class="col-12 border rounded">
-    <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
-    <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
-      Hokkaido offers an experience that is completely different from the rest of Japan.</p>
-  </div>
-</div>
-
-<div class="special_rec col-12">
-  <div class="d-flex in_images align-items-end">
-    <a href="#">SPONSORED INSIGHT</a>
-  </div>
-  <div class="col-12 border rounded">
-    <h6><a href="#">Hokkaido: Japan’s Northern Frontier</a></h6>
-    <p>Featuring a unique history, uninhibited wildness and at times otherworldly natural spectacles,
-      Hokkaido offers an experience that is completely different from the rest of Japan.</p>
-  </div>
-</div>
-
-<div class="part1">
-  <h4><a href="#">MORE STORIES</a></h4>
-  1<article class="d-flex div_gap1">
-   <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-   <div>
-     <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-     <p>The incoming president has not said what he plans to do with the tens of thousands of
-      asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-   </div>
-  </article>
-
-  <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-   <article class="d-flex div_gap1">
-    <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-    <div>
-      <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-      <p>The incoming president has not said what he plans to do with the tens of thousands of
-       asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-    </div>
-   </article>
-
-
-<article class="d-flex div_gap1">
-  <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-  <div>
-    <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-    <p>The incoming president has not said what he plans to do with the tens of thousands of
-     asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-  </div>
- </article>
-
- <article class="d-flex div_gap1">
-  <img class="img_litle" alt="image" src="https://d.newsweek.com/en/full/1711234/migrant-child-us-mexico-border-stranded-trump.webp?w=95&h=95&f=4cde0203f23604897832a6d5ad1d559f">
-  <div>
-    <h5><a href="#">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></h5>
-    <p>The incoming president has not said what he plans to do with the tens of thousands of
-     asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
-  </div>
- </article>
-
-</div>
-
- </div>
-  </main>
-    <!--FOOTER-->
-    <footer
-      class="container-fluid col-lg-11 col-md-12 col-lg-offset-3 m-auto bottom-0 p-4"
-    >
-      <div class="row pb-md-2 nav_top">
-        <div class="row col-12 col-md-8 d-flex nav_top1">
-          <div class="">
-            <a href="#"><img src="images/logo-red.svg" id="logo_bot" alt="logo" /></a>
-          </div>
-          <p class="ml-0 copyright">© 2021 NEWSWEEK DIGITAL LLC</p>
-        </div>
-        <div class="col-12 col-md-4 d-flex nav_top2">
-          <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-          <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-          <a href="#"><i class="fas fa-wifi fa-lg"></i> </a>
-        </div>
+    <div class="row mt-4 nav_bot d-flex d-md-flex flex-column border_top">
+      <div class="d-flex nav_bot1">
+        <span id="title_editors">Editions:</span>
+        <a href="#">U.S. Edition</a>
+        <a href="#">日本</a>
+        <a href="#">Pakistan</a>
+        <a href="#">Polska</a>
+        <a href="#">România</a>
       </div>
-
-      <div class="row mt-4 nav_bot d-flex d-md-flex flex-column border_top">
-        <div class="d-flex nav_bot1">
-          <span id="title_editors">Editions:</span>
-          <a href="#">U.S. Edition</a>
-          <a href="#">日本</a>
-          <a href="#">Pakistan</a>
-          <a href="#">Polska</a>
-          <a href="#">România</a>
-        </div>
-        <div class="d-flex nav_bot2">
-          <ul class="list-unstyled d-flex flex-wrap text_deco">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Corrections</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Editorial Guidelines</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Copyright</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy </a></li>
-            <li><a href="#">Cookie Policy</a></li>
-            <li><a href="#">Terms of Sale</a></li>
-            <li><a href="#">Archive</a></li>
-            <li><a href="#">Announcements</a></li>
-          </ul>
-        </div>
+      <div class="d-flex nav_bot2">
+        <ul class="list-unstyled d-flex flex-wrap text_deco">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Corrections</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Editorial Guidelines</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Copyright</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy </a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Terms of Sale</a></li>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">Announcements</a></li>
+        </ul>
       </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
