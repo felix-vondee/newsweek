@@ -54,6 +54,24 @@ img:hover {
   margin-left: 15px;
 }
 
+h4 > a { /* highlight 1 */
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 20px;
+}
+
+h6 > a {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+h5 > a {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}/* highlight 2 */
+
 .in_images > a {
   margin-bottom: 0;
   padding: 5px 15px 6px;
@@ -71,6 +89,12 @@ img:hover {
 .nav_bot1 > a {
   font-size: 14px;
   color: #666;
+}
+
+h5 > a:hover { /* highlight */
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
 }
 
 ul > li {
