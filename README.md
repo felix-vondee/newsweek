@@ -3,7 +3,11 @@
 
 > The goal of this project was to master responsive design using bootstrap.
 
-![Screenshot (47)](https://user-images.githubusercontent.com/55915241/109484596-4d3ec680-7a89-11eb-944f-32d1c6c95753.png)
+
+
+![Screenshot (49)](https://user-images.githubusercontent.com/55915241/109638816-24850280-7b57-11eb-8a77-36230c607b90.png)
+
+
 
 ## Built With
 
