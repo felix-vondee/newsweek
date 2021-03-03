@@ -55,7 +55,6 @@ img:hover {
 }
 
 h4 > a {
-  /* highlight 1 */
   font-weight: bold;
   color: #a0a0a0;
   font-size: 20px;
@@ -71,7 +70,7 @@ h5 > a {
   color: black;
   font-weight: bold;
   font-size: 17px;
-} /* highlight 2 */
+}
 
 .in_images > a {
   margin-bottom: 0;
@@ -88,7 +87,6 @@ h5 > a {
 }
 
 h5 > a:hover {
-  /* highlight */
   color: black;
   text-decoration: none;
   border-bottom: 1px solid red;
@@ -104,7 +102,6 @@ ul > li {
 }
 
 h4 > a:hover {
-  /* highlight 1 */
   color: #a0a0a0;
   text-decoration: none;
 }
@@ -113,7 +110,7 @@ h6 > a:hover {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid red;
-} /* highlight 2 */
+}
 
 .nav_bar_mid > li {
   display: flex;
@@ -152,7 +149,6 @@ h6 > a:hover {
 }
 
 .div_gap1 {
-  /* highlight 1 */
   column-gap: 20px;
 }
 
@@ -181,7 +177,7 @@ h6 > a:hover {
   background-color: #f72210;
   padding: 5px 9px 5px 9px;
   color: white;
-} /* highlight 2 */
+}
 
 .nav_bar_bot {
   height: 100%;
@@ -237,7 +233,6 @@ h6 > a:hover {
 }
 
 .part1 > article {
-  /* highlight 1 */
   border-top: 1px solid #ddd;
   padding-top: 10px;
 }
@@ -247,12 +242,12 @@ h6 > a:hover {
   padding-top: 10px;
 }
 
-.editor_cont > div > div {
+.magazin_cont > div > div {
   gap: 10px;
   padding: 15px 0 0 0;
-} /* highlight 2 */
+}
 
-.magazin_cont > div > div {
+.editor_cont > div > div {
   gap: 10px;
   padding: 15px 0 0 0;
 }
@@ -282,7 +277,6 @@ h6 > a:hover {
 /* phone main */
 
 main {
-  /* highlight 1 */
   background-color: #f4f5f6;
   height: auto;
   margin-top: 20px;
@@ -341,16 +335,15 @@ main {
 .section2_under {
   margin-top: 10px;
   row-gap: 5px;
-} /* highlight 2 */
+}
+
+.small_img {
+  width: 100%;
+}
 
 .img_litle {
   width: 95px;
   height: 95px;
-}
-
-.small_img {
-  /* highlight 1 */
-  width: 100%;
 }
 
 .text_div {
@@ -365,7 +358,7 @@ main {
 
 .debate_cont {
   row-gap: 20px;
-} /* highlight 2 */
+}
 
 .col3_title {
   color: black;
@@ -384,7 +377,6 @@ main {
 }
 
 .col2_title {
-  /* higlight 1 */
   color: #818181;
   font-weight: bold;
   font-size: 17px;
@@ -402,16 +394,37 @@ main {
 /* magazin part */
 
 .image_mag {
-  /* highlight 1 */
   background-image: url(https://d.newsweek.com/en/full/1704591/cover-january-22-2021.webp?w=290&h=387&q=90&f=2a6659a3d39362991dce870c3c982d89);
   background-position: center;
   background-size: cover;
   height: 400px;
 }
 
+.magazin_cont {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  padding-top: 20px;
+}
+
 .test {
   align-items: flex-end;
   margin-top: 20px;
+}
+
+.magazin_cont > div > div > h3 {
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+  background-color: #f72210;
+}
+
+.magazin_cont > div > div > h4 {
+  font-size: 19px;
+  padding: 4px;
+  color: #f72210;
 }
 
 .image_mag > h5 {
@@ -600,10 +613,6 @@ footer {
   display: none;
 }
 
-.art {
-  display: none;
-}
-
 .border_top {
   border-top: 1px solid #d9d9d9;
 }
@@ -621,8 +630,23 @@ footer {
 }
 
 .hide_phone {
-  /* highlight 1 */
   display: initial;
+}
+
+.art {
+  display: none;
+}
+
+.news_letter {
+  height: 90%;
+}
+
+.sub_button_bot {
+  background-color: red;
+}
+
+.sec_subnew {
+  padding-top: 40px;
 }
 
 .editor_tit {
@@ -641,6 +665,10 @@ footer {
   background-color: #f61602;
 }
 
+.sub_cont_sp {
+  padding-top: 40px;
+}
+
 /* media querry */
 
 @media (min-width: 768px) {
@@ -656,8 +684,12 @@ footer {
     display: none;
   }
 
+  .deb {
+    position: relative;
+    top: -20px;
+  }
+
   .image_mag {
-    /* highlight 1 */
     height: 90%;
   }
 
@@ -670,10 +702,9 @@ footer {
     margin: auto;
   }
 
-  .deb {
-    position: relative;
-    top: -20px;
-  } /* highlight 2 */
+  .gap_nedd {
+    margin-top: 20px;
+  }
 
   .nav_top1 {
     flex-direction: row;
@@ -681,7 +712,10 @@ footer {
   }
 
   .hide_phone {
-    /* highlight 1 */
+    display: none;
+  }
+
+  #user {
     display: none;
   }
 
@@ -691,24 +725,20 @@ footer {
     background-color: #f4f5f6;
   }
 
-  .magazin_cont {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .editor_cont {
-    grid-template-columns: 1fr 1fr;
-  } /* highlight 2 */
-
-  #user {
-    display: none;
-  }
-
   body {
     display: grid;
   }
 
   main {
     margin-top: 53px;
+  }
+
+  .magazin_cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .editor_cont {
+    grid-template-columns: 1fr 1fr;
   }
 
   #hide {
@@ -720,7 +750,6 @@ footer {
   }
 
   .section3 > article {
-    /* highlight */
     border-top: 1px solid #ddd;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -753,7 +782,6 @@ footer {
   }
 
   .cont_editor {
-    /* highlight 1 */
     height: 200px;
   }
 
@@ -765,7 +793,7 @@ footer {
   .form_in {
     width: unset;
     margin: unset;
-  } /* highlight 2 */
+  }
 
   main {
     margin-top: 194px;
@@ -779,11 +807,10 @@ footer {
   }
 
   .magazin_cont {
-    /* highlight 1 */
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .editor_cont {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  } /* highlight 2 */
+  }
 }
