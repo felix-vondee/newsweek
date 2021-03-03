@@ -54,7 +54,8 @@ img:hover {
   margin-left: 15px;
 }
 
-h4 > a { /* highlight 1 */
+h4 > a {
+  /* highlight 1 */
   font-weight: bold;
   color: #a0a0a0;
   font-size: 20px;
@@ -70,7 +71,7 @@ h5 > a {
   color: black;
   font-weight: bold;
   font-size: 17px;
-}/* highlight 2 */
+} /* highlight 2 */
 
 .in_images > a {
   margin-bottom: 0;
@@ -86,7 +87,8 @@ h5 > a {
   color: #666;
 }
 
-h5 > a:hover { /* highlight */
+h5 > a:hover {
+  /* highlight */
   color: black;
   text-decoration: none;
   border-bottom: 1px solid red;
@@ -101,7 +103,8 @@ ul > li {
   height: 54px;
 }
 
-h4 > a:hover { /* highlight 1 */
+h4 > a:hover {
+  /* highlight 1 */
   color: #a0a0a0;
   text-decoration: none;
 }
@@ -110,7 +113,7 @@ h6 > a:hover {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid red;
-}/* highlight 2 */
+} /* highlight 2 */
 
 .nav_bar_mid > li {
   display: flex;
@@ -148,7 +151,8 @@ h6 > a:hover {
   background-color: #ffe400;
 }
 
-.div_gap1 { /* highlight 1 */
+.div_gap1 {
+  /* highlight 1 */
   column-gap: 20px;
 }
 
@@ -177,7 +181,7 @@ h6 > a:hover {
   background-color: #f72210;
   padding: 5px 9px 5px 9px;
   color: white;
-}/* highlight 2 */
+} /* highlight 2 */
 
 .nav_bar_bot {
   height: 100%;
@@ -232,7 +236,8 @@ h6 > a:hover {
   width: 95%;
 }
 
-.part1 > article { /* highlight 1 */
+.part1 > article {
+  /* highlight 1 */
   border-top: 1px solid #ddd;
   padding-top: 10px;
 }
@@ -246,6 +251,11 @@ h6 > a:hover {
   gap: 10px;
   padding: 15px 0 0 0;
 } /* highlight 2 */
+
+.magazin_cont > div > div {
+  gap: 10px;
+  padding: 15px 0 0 0;
+}
 
 #phone_cont > div {
   display: flex;
@@ -271,7 +281,8 @@ h6 > a:hover {
 
 /* phone main */
 
-main { /* highlight 1 */
+main {
+  /* highlight 1 */
   background-color: #f4f5f6;
   height: auto;
   margin-top: 20px;
@@ -337,7 +348,8 @@ main { /* highlight 1 */
   height: 95px;
 }
 
-.small_img {/* highlight 1 */
+.small_img {
+  /* highlight 1 */
   width: 100%;
 }
 
@@ -371,7 +383,8 @@ main { /* highlight 1 */
   height: 63px;
 }
 
-.col2_title { /* higlight 1 */
+.col2_title {
+  /* higlight 1 */
   color: #818181;
   font-weight: bold;
   font-size: 17px;
@@ -388,7 +401,8 @@ main { /* highlight 1 */
 
 /* magazin part */
 
-.image_mag { /* highlight 1 */
+.image_mag {
+  /* highlight 1 */
   background-image: url(https://d.newsweek.com/en/full/1704591/cover-january-22-2021.webp?w=290&h=387&q=90&f=2a6659a3d39362991dce870c3c982d89);
   background-position: center;
   background-size: cover;
@@ -423,6 +437,36 @@ main { /* highlight 1 */
   color: white;
   padding: 4px;
   background-color: #f72210;
+}
+
+#magazin_editor > div > div > h4 {
+  font-size: 23px;
+  padding: 4px;
+  color: #f72210;
+}
+
+.cont_editor {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711224/israel-tanks-border-syria-golan.webp?w=397&h=265&f=7808a219e546114ab901f153186bd843);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.cont_editor > h5 {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.title_com {
+  font-size: 18px;
+  padding: 4px;
+  color: #f72210;
+  font-weight: bold;
 }
 
 .section_ug {
@@ -576,7 +620,8 @@ footer {
   display: none;
 }
 
-.hide_phone { /* highlight 1 */
+.hide_phone {
+  /* highlight 1 */
   display: initial;
 }
 
@@ -611,7 +656,8 @@ footer {
     display: none;
   }
 
-  .image_mag { /* highlight 1 */
+  .image_mag {
+    /* highlight 1 */
     height: 90%;
   }
 
@@ -627,14 +673,15 @@ footer {
   .deb {
     position: relative;
     top: -20px;
-  }/* highlight 2 */
+  } /* highlight 2 */
 
   .nav_top1 {
     flex-direction: row;
     column-gap: 20px;
   }
 
-  .hide_phone { /* highlight 1 */
+  .hide_phone {
+    /* highlight 1 */
     display: none;
   }
 
@@ -650,7 +697,7 @@ footer {
 
   .editor_cont {
     grid-template-columns: 1fr 1fr;
-  }/* highlight 2 */
+  } /* highlight 2 */
 
   #user {
     display: none;
@@ -672,7 +719,8 @@ footer {
     margin-top: 10px;
   }
 
-  .section3 > article { /* highlight */
+  .section3 > article {
+    /* highlight */
     border-top: 1px solid #ddd;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -704,7 +752,8 @@ footer {
     margin: auto;
   }
 
-  .cont_editor {/* highlight 1 */
+  .cont_editor {
+    /* highlight 1 */
     height: 200px;
   }
 
@@ -716,7 +765,7 @@ footer {
   .form_in {
     width: unset;
     margin: unset;
-  }/* highlight 2 */
+  } /* highlight 2 */
 
   main {
     margin-top: 194px;
@@ -729,7 +778,8 @@ footer {
     z-index: 3;
   }
 
-  .magazin_cont { /* highlight 1 */
+  .magazin_cont {
+    /* highlight 1 */
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
