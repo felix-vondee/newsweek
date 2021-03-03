@@ -1,81 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Newsweek</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script
+      src="https://kit.fontawesome.com/37124d06d1.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body class="m-auto h-auto">
+  <body class="m-auto h-auto">
     <!-- desktop navbar-->
     <nav class="d-sm-none d-lg-block" id="nav_hide">
-        <div class="flex-row justify-content-between align-items-end d-flex top_nav">
-            <p id="go_right">Wed, Jan 20, 2021</p>
-            <div>
-                <img src="images/logo-white.svg" alt="logo">
-            </div>
-            <div class="top_mar">
-                <button type="button" class="btn login" style="color: white; font-weight: bold;">Login</button>
-                <button type="button" class="btn btn-warning button"
-                    style="border-radius: 23px; font-weight: bold; color: black; height: 30px; background-color: #ffe400;">SUBSCRIBE
-                    ></button>
-            </div>
-        </div>
+      <div
+        class="flex-row justify-content-between align-items-end d-flex top_nav"
+      >
+        <p id="go_right">Wed, Jan 20, 2021</p>
         <div>
-            <ul class="justify-content-start m-0 list-unstyled d-flex nav_bar_mid ">
-                <li style="border: none;"><a href="#">U.S.</a></li>
-                <li><a href="#">World</a></li>
-                <li><a href="#">Busniess</a></li>
-                <li><a href="#">Tech&Science</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Newsgeek</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">The Debate</a></li>
-                <li><a href="#">Experts</a></li>
-                <li><a href="#">Vantage</a></li>
-                <li class="d-flex search_cont align-items-center" style="border: none;">
-                    <div class="d-flex search_part">
-                        <p style="color: #b7b7b7; margin: auto;">Search</p>
-                        <i class="fas fa-search"></i>
-                    </div>
-                </li>
-                <li id="border_red" style="height: 100%;"></li>
-            </ul>
+          <img src="images/logo-white.svg" alt="logo" />
         </div>
-        <div class="row d-flex last_nav">
-            <ul class="col-lg-10 d-flex list-unstyled justify-content-start nav_bar_bot">
-                <li style="font-weight: bold;"><span>TREDING</span></li>
-                <li><a href="#">JOE BIDEN</a></li>
-                <li><a href="#">DONALD TRUMP</a></li>
-                <li><a href="#">INAUGURATION</a></li>
-                <li><a href="#">CORONAVIRUS</a></li>
-                <li><a href="#">STIMULUS PACKAGE</a></li>
-                <li><a href="#">VACCINE</a></li>
-                <li><a href="#">CAPITOL RIOTS</a></li>
-            </ul>
-            <div class="col-lg-2"></div>
+        <div class="top_mar">
+          <button
+            type="button"
+            class="btn login"
+            style="color: white; font-weight: bold"
+          >
+            Login
+          </button>
+          <button
+            type="button"
+            class="btn btn-warning button"
+            style="
+              border-radius: 23px;
+              font-weight: bold;
+              color: black;
+              height: 30px;
+              background-color: #ffe400;
+            "
+          >
+            SUBSCRIBE >
+          </button>
         </div>
+      </div>
+      <div>
+        <ul class="justify-content-start m-0 list-unstyled d-flex nav_bar_mid">
+          <li style="border: none"><a href="#">U.S.</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Busniess</a></li>
+          <li><a href="#">Tech&Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Newsgeek</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">The Debate</a></li>
+          <li><a href="#">Experts</a></li>
+          <li><a href="#">Vantage</a></li>
+          <li
+            class="d-flex search_cont align-items-center"
+            style="border: none"
+          >
+            <div class="d-flex search_part">
+              <p style="color: #b7b7b7; margin: auto">Search</p>
+              <i class="fas fa-search"></i>
+            </div>
+          </li>
+          <li id="border_red" style="height: 100%"></li>
+        </ul>
+      </div>
+      <div class="row d-flex last_nav">
+        <ul
+          class="col-lg-10 d-flex list-unstyled justify-content-start nav_bar_bot"
+        >
+          <li style="font-weight: bold"><span>TREDING</span></li>
+          <li><a href="#">JOE BIDEN</a></li>
+          <li><a href="#">DONALD TRUMP</a></li>
+          <li><a href="#">INAUGURATION</a></li>
+          <li><a href="#">CORONAVIRUS</a></li>
+          <li><a href="#">STIMULUS PACKAGE</a></li>
+          <li><a href="#">VACCINE</a></li>
+          <li><a href="#">CAPITOL RIOTS</a></li>
+        </ul>
+        <div class="col-lg-2"></div>
+      </div>
     </nav>
     <!-- phone navbar-->
     <nav class="d-flex flex-row justify-content-center" id="phone_navbar">
-        <div id="phone_cont" class="d-flex align-items-center justify-content-between">
-            <img src="images/logo-white.svg" alt="logo">
-            <div>
-                <h3 id="hide">LOGIN</h3>
-                <i id="user" class="fas fa-user"></i>
-                <button class="btn first_button btn-sm" type="button"><strong>SUBSCRIBE ></strong></button>
-                <i id="menu" class="fas fa-bars"></i>
-            </div>
-
+      <div
+        id="phone_cont"
+        class="d-flex align-items-center justify-content-between"
+      >
+        <img src="images/logo-white.svg" alt="logo" />
+        <div>
+          <h3 id="hide">LOGIN</h3>
+          <i id="user" class="fas fa-user"></i>
+          <button class="btn first_button btn-sm" type="button">
+            <strong>SUBSCRIBE ></strong>
+          </button>
+          <i id="menu" class="fas fa-bars"></i>
         </div>
+      </div>
     </nav>
 
     <!--MAIN -->
@@ -934,343 +970,888 @@
             </div>
           </div>
         </div>
-        <div class="d-flex border-bottom bg-white col-lg-11 magazine_tit col-md-12 col-lg-offset-3 m-auto justify-content-center">
+        <div
+          class="d-flex border-bottom bg-white col-lg-11 magazine_tit col-md-12 col-lg-offset-3 m-auto justify-content-center"
+        >
           <h3 class="title_sec font-weight-bold">N</h3>
           <h3 class="editor_title font-weight-bold">IN THE MAGAZINE</h3>
-      </div>
-      <section class="bg-white col-12 magazin_cont">
+        </div>
+        <section class="bg-white col-12 magazin_cont">
           <div>
-              <div class="d-flex test align-content-end image_mag">
-                  <h5>JANUARY 22 ISSUE</h5>
-              </div>
-              <div class="d-flex magazin_fet justify-content-center">
-                  <h5 class="font-weight-bold">SEE ALL FEATURES ></h5>
-              </div>
-          </div>
-          <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
+            <div class="d-flex test align-content-end image_mag">
+              <h5>JANUARY 22 ISSUE</h5>
+            </div>
+            <div class="d-flex magazin_fet justify-content-center">
+              <h5 class="font-weight-bold">SEE ALL FEATURES ></h5>
+            </div>
           </div>
           <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
-          </div>
-          <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
-          </div>
-          <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
-          </div>
-          <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
-          </div>
-          <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
-          </div>
-          <div>
-                <img class="w-100" src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29" alt="image">
-                <div class="d-flex col-12">
-                    <h3>COVER</h3>
-                    <h4>NEWS</h4>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                </div>
-          </div>
-          </section>
-          <div class="d-flex border-bottom bg-white editor_tit justify-content-center">
-              <h3 class="title_sec font-weight-bold">N</h3>
-              <h3 class="editor_title font-weight-bold">EDITOR'S PICKS</h3>
-          </div>
-          <section class="bg-white border-bottom col-12 editor_cont">
-              <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-100"
+              src="https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp?w=466&h=311&q=90&f=6211816ab79c75bb0b17db7278ec3b29"
+              alt="image"
+            />
+            <div class="d-flex col-12">
+              <h3>COVER</h3>
+              <h4>NEWS</h4>
             </div>
             <div>
-                <div class="d-flex w-100 cont_editor">
-                  <h5 class="font-weight-bold">WORLD</h5>
-                </div>
-                <div>
-                  <h5><a href="#">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</a></h5>
-                  <p>Newsweek spoke exclusively with four Israeli security officials charged with frontiers facing Syria, Lebanon, Gaza and the southern borders with Egypt and Jordan, revealing their primary security concerns for 2021.</p>
-                </div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
             </div>
-          </section>
-          <section class="col-12 border-bottom row bg-white section_ug">
-            <div class="col-12">
-                <h5 class="title_com">U.S</h5>
+          </div>
+        </section>
+        <div
+          class="d-flex border-bottom bg-white editor_tit justify-content-center"
+        >
+          <h3 class="title_sec font-weight-bold">N</h3>
+          <h3 class="editor_title font-weight-bold">EDITOR'S PICKS</h3>
+        </div>
+        <section class="bg-white border-bottom col-12 editor_cont">
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
             </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711647/vanderburgh-john-keown.webp?w=397&h=265&f=4db7c0723c0490d9f0576bf575b66abc" alt="image">
-                <h5><a href="#">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h5>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
             </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711647/vanderburgh-john-keown.webp?w=397&h=265&f=4db7c0723c0490d9f0576bf575b66abc" alt="image">
-                <h5><a href="#">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h5>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
             </div>
-            <div class="col-md-4">
-                <ul class="d-flex h-100 list_3 m-auto flex-column">
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.webp?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62" alt="image">
-                        <h5><a href="#">'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to Government</a></h5>
-                    </li>
-                    <li class="d-flex h-100 border-bottom border-top flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.webp?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62" alt="image">
-                        <h5><a href="#">'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to Government</a></h5>
-                    </li>
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.webp?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62" alt="image">
-                        <h5><a href="#">'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to Government</a></h5>
-                    </li>
-                </ul>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
             </div>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
+            </div>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
+            </div>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
+            </div>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
+            </div>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
+            </div>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex w-100 cont_editor">
+              <h5 class="font-weight-bold">WORLD</h5>
+            </div>
+            <div>
+              <h5>
+                <a href="#"
+                  >FBI, DHS, White House Advisers Foresaw Possible Riots, Looked
+                  the Other Way</a
+                >
+              </h5>
+              <p>
+                Newsweek spoke exclusively with four Israeli security officials
+                charged with frontiers facing Syria, Lebanon, Gaza and the
+                southern borders with Egypt and Jordan, revealing their primary
+                security concerns for 2021.
+              </p>
+            </div>
+          </div>
         </section>
         <section class="col-12 border-bottom row bg-white section_ug">
-            <div class="col-12">
-                <h5 class="title_com">World</h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1711583/theresa-may-donald-trump-london-2019.webp?w=397&h=265&l=64&t=44&f=6bf7b6164e3b5c81632ccd2c1f86987d" alt="image">
-                <h5><a href="#">Biden Offers 'Democracy and Decency' After Trump, Says Former U.K. PM</a></h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1711583/theresa-may-donald-trump-london-2019.webp?w=397&h=265&l=64&t=44&f=6bf7b6164e3b5c81632ccd2c1f86987d" alt="image">
-                <h5><a href="#">Biden Offers 'Democracy and Decency' After Trump, Says Former U.K. PM</a></h5>
-            </div>
-            <div class="col-md-4">
-                <ul class="d-flex h-100 list_3 m-auto flex-column">
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1711519/new-zealand-covid-free-concert-waitangi-crowd.webp?w=95&h=95&f=907c0a322fb8b8377a3f8a9d04f6af7a" alt="image">
-                        <h5><a href="#">New Zealand's 20,000-Person Concert Marks 2 Months Without COVID in Country</a></h5>
-                    </li>
-                    <li class="d-flex h-100 border-bottom border-top flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1711519/new-zealand-covid-free-concert-waitangi-crowd.webp?w=95&h=95&f=907c0a322fb8b8377a3f8a9d04f6af7a" alt="image">
-                        <h5><a href="#">New Zealand's 20,000-Person Concert Marks 2 Months Without COVID in Country</a></h5>
-                    </li>
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1711519/new-zealand-covid-free-concert-waitangi-crowd.webp?w=95&h=95&f=907c0a322fb8b8377a3f8a9d04f6af7a" alt="image">
-                        <h5><a href="#">New Zealand's 20,000-Person Concert Marks 2 Months Without COVID in Country</a></h5>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="col-12 border-bottom row bg-white section_ug">
-            <div class="col-12">
-                <h5 class="title_com">Business</h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1710976/sheldonadelson.webp?w=397&h=265&f=07b84d37eeadc42ce989c32d12b84cd2" alt="image">
-                <h5><a href="#">The Absolutely American Life of Sheldon Adelson</a></h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1710976/sheldonadelson.webp?w=397&h=265&f=07b84d37eeadc42ce989c32d12b84cd2" alt="image">
-                <h5><a href="#">The Absolutely American Life of Sheldon Adelson</a></h5>
-            </div>
-            <div class="col-md-4">
-                <ul class="d-flex h-100 list_3 m-auto flex-column">
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1705595/us-capitol-riot.webp?w=95&h=95&f=67e1fab39152bb83472bc591be04a1e1" alt="image">
-                        <h5><a href="#">Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud Claimants</a></h5>
-                    </li>
-                    <li class="d-flex h-100 border-bottom border-top flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1705595/us-capitol-riot.webp?w=95&h=95&f=67e1fab39152bb83472bc591be04a1e1" alt="image">
-                        <h5><a href="#">Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud Claimants</a></h5>
-                    </li>
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1705595/us-capitol-riot.webp?w=95&h=95&f=67e1fab39152bb83472bc591be04a1e1" alt="image">
-                        <h5><a href="#">Hidden Way Corporations, Billionaire Execs, Fund GOP Voter-Fraud Claimants</a></h5>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="col-12 border-bottom row bg-white section_ug">
-            <div class="col-12">
-                <h5 class="title_com">Tech & Science</h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1711568/anthony-levandowski.webp?w=397&h=265&f=997bdfde2b8e71d821acabc52da96b73" alt="image">
-                <h5><a href="#">Trump Pardons Anthony Levandowski, Engineer Who Stole Google Trade Secrets</a></h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1711568/anthony-levandowski.webp?w=397&h=265&f=997bdfde2b8e71d821acabc52da96b73" alt="image">
-                <h5><a href="#">Trump Pardons Anthony Levandowski, Engineer Who Stole Google Trade Secrets</a></h5>
-            </div>
-            <div class="col-md-4">
-                <ul class="d-flex h-100 list_3 m-auto flex-column">
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1710879/president-elect-joe-biden.webp?w=95&h=95&f=5c29befbbf30dedf2d0c7e029a20c6fc" alt="image">
-                        <h5><a href="#">Joe Biden's Social Media Following Up by Millions Ahead of Inauguration</a></h5>
-                    </li>
-                    <li class="d-flex h-100 border-bottom border-top flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1710879/president-elect-joe-biden.webp?w=95&h=95&f=5c29befbbf30dedf2d0c7e029a20c6fc" alt="image">
-                        <h5><a href="#">Joe Biden's Social Media Following Up by Millions Ahead of Inauguration</a></h5>
-                    </li>
-                    <li class="d-flex h-100 flex-row">
-                        <img class="img_pos" src="https://d.newsweek.com/en/full/1710879/president-elect-joe-biden.webp?w=95&h=95&f=5c29befbbf30dedf2d0c7e029a20c6fc" alt="image">
-                        <h5><a href="#">Joe Biden's Social Media Following Up by Millions Ahead of Inauguration</a></h5>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="col-12 border-bottom row bg-white section_ug">
-            <div class="col-12">
-                <h5 class="title_com">Culture</h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1697332/cul-ps-jared-padalecki-2.webp?w=397&h=265&l=59&t=40&f=6bb71d7eb250a042646b6febb77da2c6" alt="image">
-                <h5><a href="#">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</a></h5>
-            </div>
-            <div class="col-md-4 d-flex flex-column">
-                <img class="bottom_img" src="https://d.newsweek.com/en/full/1697332/cul-ps-jared-padalecki-2.webp?w=397&h=265&l=59&t=40&f=6bb71d7eb250a042646b6febb77da2c6" alt="image">
-                <h5><a href="#">Jared Padalecki on how his 'Walker' Reboot Differs From the Original</a></h5>
-            </div>
-            <div class="col-md-4">
-              <ul class="d-flex h-100 list_3 m-auto flex-column">
-                  <li class="d-flex h-100 flex-row">
-                      <img class="img_pos" src="https://d.newsweek.com/en/full/1711048/lil-wayne.webp?w=95&h=95&f=3a7b718b8890648288627bddab432a0e" alt="image">
-                      <h5><a href="#">Here Are Donald Trump's Reasons for Pardoning Lil Wayne</a></h5>
-                  </li>
-                  <li class="d-flex h-100 border-bottom border-top flex-row">
-                      <img class="img_pos" src="https://d.newsweek.com/en/full/1711048/lil-wayne.webp?w=95&h=95&f=3a7b718b8890648288627bddab432a0e" alt="image">
-                      <h5><a href="#">Here Are Donald Trump's Reasons for Pardoning Lil Wayne</a></h5>
-                  </li>
-                  <li class="d-flex h-100 flex-row">
-                      <img class="img_pos" src="https://d.newsweek.com/en/full/1711048/lil-wayne.webp?w=95&h=95&f=3a7b718b8890648288627bddab432a0e" alt="image">
-                      <h5><a href="#">Here Are Donald Trump's Reasons for Pardoning Lil Wayne</a></h5>
-                  </li>
-              </ul>
-          </div>
-      </section>
-      <section class="col-12 border-bottom row bg-white section_ug">
           <div class="col-12">
-              <h5 class="title_com">Sports</h5>
+            <h5 class="title_com">U.S</h5>
           </div>
           <div class="col-md-4 d-flex flex-column">
-              <img class="bottom_img" src="https://d.newsweek.com/en/full/1711638/houston-astros-outfielder-george-springer.webp?w=397&h=265&f=26bca82037f37436a33ec24e36ab56b0" alt="image">
-              <h5><a href="#">Does Houston Have a Problem? Springer and Harden Gone, Watson May Follow</a></h5>
+            <img
+              class="bottom_img"
+              src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711647/vanderburgh-john-keown.webp?w=397&h=265&f=4db7c0723c0490d9f0576bf575b66abc"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Indiana Homeless Man Chooses to Be Arrested to Avoid Cold
+                Weather</a
+              >
+            </h5>
           </div>
           <div class="col-md-4 d-flex flex-column">
-              <img class="bottom_img" src="https://d.newsweek.com/en/full/1711638/houston-astros-outfielder-george-springer.webp?w=397&h=265&f=26bca82037f37436a33ec24e36ab56b0" alt="image">
-              <h5><a href="#">Does Houston Have a Problem? Springer and Harden Gone, Watson May Follow</a></h5>
+            <img
+              class="bottom_img"
+              src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711647/vanderburgh-john-keown.webp?w=397&h=265&f=4db7c0723c0490d9f0576bf575b66abc"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Indiana Homeless Man Chooses to Be Arrested to Avoid Cold
+                Weather</a
+              >
+            </h5>
           </div>
           <div class="col-md-4">
-              <ul class="d-flex h-100 list_3 m-auto flex-column">
-                  <li class="d-flex h-100 flex-row">
-                      <img class="img_pos" src="https://d.newsweek.com/en/full/1711210/sarah-thomas-nfl-official.webp?w=95&h=95&f=3c2aa8541a1197f2ed81361e6940d8cf" alt="image">
-                      <h5><a href="#">Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month</a></h5>
-                  </li>
-                  <li class="d-flex h-100 border-bottom border-top flex-row">
-                      <img class="img_pos" src="https://d.newsweek.com/en/full/1711210/sarah-thomas-nfl-official.webp?w=95&h=95&f=3c2aa8541a1197f2ed81361e6940d8cf" alt="image">
-                      <h5><a href="#">Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month</a></h5>
-                  </li>
-                  <li class="d-flex h-100 flex-row">
-                      <img class="img_pos" src="https://d.newsweek.com/en/full/1711210/sarah-thomas-nfl-official.webp?w=95&h=95&f=3c2aa8541a1197f2ed81361e6940d8cf" alt="image">
-                      <h5><a href="#">Sarah Thomas to Become First Female to Officiate a Super Bowl Next Month</a></h5>
-                  </li>
-              </ul>
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.webp?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to
+                    Government</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.webp?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to
+                    Government</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711584/tiger-wild-animal-sanctuary-colorado.webp?w=95&h=95&f=b75680cc8b5188b7ba05594030e1cd62"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >'Tiger King' Zoo Owners Ordered To Hand Over Big Cats to
+                    Government</a
+                  >
+                </h5>
+              </li>
+            </ul>
           </div>
-      </section>
-
+        </section>
+        <section class="col-12 border-bottom row bg-white section_ug">
+          <div class="col-12">
+            <h5 class="title_com">World</h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1711583/theresa-may-donald-trump-london-2019.webp?w=397&h=265&l=64&t=44&f=6bf7b6164e3b5c81632ccd2c1f86987d"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Biden Offers 'Democracy and Decency' After Trump, Says Former
+                U.K. PM</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1711583/theresa-may-donald-trump-london-2019.webp?w=397&h=265&l=64&t=44&f=6bf7b6164e3b5c81632ccd2c1f86987d"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Biden Offers 'Democracy and Decency' After Trump, Says Former
+                U.K. PM</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711519/new-zealand-covid-free-concert-waitangi-crowd.webp?w=95&h=95&f=907c0a322fb8b8377a3f8a9d04f6af7a"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >New Zealand's 20,000-Person Concert Marks 2 Months Without
+                    COVID in Country</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711519/new-zealand-covid-free-concert-waitangi-crowd.webp?w=95&h=95&f=907c0a322fb8b8377a3f8a9d04f6af7a"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >New Zealand's 20,000-Person Concert Marks 2 Months Without
+                    COVID in Country</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711519/new-zealand-covid-free-concert-waitangi-crowd.webp?w=95&h=95&f=907c0a322fb8b8377a3f8a9d04f6af7a"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >New Zealand's 20,000-Person Concert Marks 2 Months Without
+                    COVID in Country</a
+                  >
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="col-12 border-bottom row bg-white section_ug">
+          <div class="col-12">
+            <h5 class="title_com">Business</h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1710976/sheldonadelson.webp?w=397&h=265&f=07b84d37eeadc42ce989c32d12b84cd2"
+              alt="image"
+            />
+            <h5>
+              <a href="#">The Absolutely American Life of Sheldon Adelson</a>
+            </h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1710976/sheldonadelson.webp?w=397&h=265&f=07b84d37eeadc42ce989c32d12b84cd2"
+              alt="image"
+            />
+            <h5>
+              <a href="#">The Absolutely American Life of Sheldon Adelson</a>
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1705595/us-capitol-riot.webp?w=95&h=95&f=67e1fab39152bb83472bc591be04a1e1"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Hidden Way Corporations, Billionaire Execs, Fund GOP
+                    Voter-Fraud Claimants</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1705595/us-capitol-riot.webp?w=95&h=95&f=67e1fab39152bb83472bc591be04a1e1"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Hidden Way Corporations, Billionaire Execs, Fund GOP
+                    Voter-Fraud Claimants</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1705595/us-capitol-riot.webp?w=95&h=95&f=67e1fab39152bb83472bc591be04a1e1"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Hidden Way Corporations, Billionaire Execs, Fund GOP
+                    Voter-Fraud Claimants</a
+                  >
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="col-12 border-bottom row bg-white section_ug">
+          <div class="col-12">
+            <h5 class="title_com">Tech & Science</h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1711568/anthony-levandowski.webp?w=397&h=265&f=997bdfde2b8e71d821acabc52da96b73"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Trump Pardons Anthony Levandowski, Engineer Who Stole Google
+                Trade Secrets</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1711568/anthony-levandowski.webp?w=397&h=265&f=997bdfde2b8e71d821acabc52da96b73"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Trump Pardons Anthony Levandowski, Engineer Who Stole Google
+                Trade Secrets</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1710879/president-elect-joe-biden.webp?w=95&h=95&f=5c29befbbf30dedf2d0c7e029a20c6fc"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Joe Biden's Social Media Following Up by Millions Ahead of
+                    Inauguration</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1710879/president-elect-joe-biden.webp?w=95&h=95&f=5c29befbbf30dedf2d0c7e029a20c6fc"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Joe Biden's Social Media Following Up by Millions Ahead of
+                    Inauguration</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1710879/president-elect-joe-biden.webp?w=95&h=95&f=5c29befbbf30dedf2d0c7e029a20c6fc"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Joe Biden's Social Media Following Up by Millions Ahead of
+                    Inauguration</a
+                  >
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="col-12 border-bottom row bg-white section_ug">
+          <div class="col-12">
+            <h5 class="title_com">Culture</h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1697332/cul-ps-jared-padalecki-2.webp?w=397&h=265&l=59&t=40&f=6bb71d7eb250a042646b6febb77da2c6"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Jared Padalecki on how his 'Walker' Reboot Differs From the
+                Original</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1697332/cul-ps-jared-padalecki-2.webp?w=397&h=265&l=59&t=40&f=6bb71d7eb250a042646b6febb77da2c6"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Jared Padalecki on how his 'Walker' Reboot Differs From the
+                Original</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711048/lil-wayne.webp?w=95&h=95&f=3a7b718b8890648288627bddab432a0e"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Here Are Donald Trump's Reasons for Pardoning Lil Wayne</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711048/lil-wayne.webp?w=95&h=95&f=3a7b718b8890648288627bddab432a0e"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Here Are Donald Trump's Reasons for Pardoning Lil Wayne</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711048/lil-wayne.webp?w=95&h=95&f=3a7b718b8890648288627bddab432a0e"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Here Are Donald Trump's Reasons for Pardoning Lil Wayne</a
+                  >
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="col-12 border-bottom row bg-white section_ug">
+          <div class="col-12">
+            <h5 class="title_com">Sports</h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1711638/houston-astros-outfielder-george-springer.webp?w=397&h=265&f=26bca82037f37436a33ec24e36ab56b0"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Does Houston Have a Problem? Springer and Harden Gone, Watson
+                May Follow</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1711638/houston-astros-outfielder-george-springer.webp?w=397&h=265&f=26bca82037f37436a33ec24e36ab56b0"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Does Houston Have a Problem? Springer and Harden Gone, Watson
+                May Follow</a
+              >
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711210/sarah-thomas-nfl-official.webp?w=95&h=95&f=3c2aa8541a1197f2ed81361e6940d8cf"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Sarah Thomas to Become First Female to Officiate a Super
+                    Bowl Next Month</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711210/sarah-thomas-nfl-official.webp?w=95&h=95&f=3c2aa8541a1197f2ed81361e6940d8cf"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Sarah Thomas to Become First Female to Officiate a Super
+                    Bowl Next Month</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711210/sarah-thomas-nfl-official.webp?w=95&h=95&f=3c2aa8541a1197f2ed81361e6940d8cf"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Sarah Thomas to Become First Female to Officiate a Super
+                    Bowl Next Month</a
+                  >
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="col-12 border-bottom row bg-white section_ug">
+          <div class="col-12">
+            <h5 class="title_com">Newsweek Expert Forum</h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1702746/newsweek-expert-forum.webp?w=397&h=265&f=c8709c236c7800d2c05ae43ad50f2094"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Newsweek Announces Launch of the Newsweek Expert Forum
+              </a>
+            </h5>
+          </div>
+          <div class="col-md-4 d-flex flex-column">
+            <img
+              class="bottom_img"
+              src="https://d.newsweek.com/en/full/1702746/newsweek-expert-forum.webp?w=397&h=265&f=c8709c236c7800d2c05ae43ad50f2094"
+              alt="image"
+            />
+            <h5>
+              <a href="#"
+                >Newsweek Announces Launch of the Newsweek Expert Forum
+              </a>
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <ul class="d-flex h-100 list_3 m-auto flex-column">
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711004/meet-members-newsweek-expert-forum.webp?w=95&h=95&f=f7d3153b29844d20e78bf10732276634"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Meet Six Founding Members of the Newsweek Expert Forum</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 border-bottom border-top flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711004/meet-members-newsweek-expert-forum.webp?w=95&h=95&f=f7d3153b29844d20e78bf10732276634"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Meet Six Founding Members of the Newsweek Expert Forum</a
+                  >
+                </h5>
+              </li>
+              <li class="d-flex h-100 flex-row">
+                <img
+                  class="img_pos"
+                  src="https://d.newsweek.com/en/full/1711004/meet-members-newsweek-expert-forum.webp?w=95&h=95&f=f7d3153b29844d20e78bf10732276634"
+                  alt="image"
+                />
+                <h5>
+                  <a href="#"
+                    >Meet Six Founding Members of the Newsweek Expert Forum</a
+                  >
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="row bg-white sub_cont_sp col-12">
+          <div class="col-lg-8 col-12">
+            <div>
+              <h5 class="title_com">SUBSCRIBE</h5>
+            </div>
+            <div class="sub text-center flex-column d-flex">
+              <div class="div_te position-absolute">
+                <img
+                  class="position-absolute"
+                  src="https://d.newsweek.com/en/full/1700315/january-15-2021-cover.jpg?w=170&q=95&f=02cc1a3558f7d7b001baea3b926907e7"
+                  alt="image"
+                />
+                <img
+                  class="image_sov position-relative"
+                  src="https://web.archive.org/web/20210120125445/https://d.newsweek.com/en/full/1704591/cover-january-22-2021.jpg?w=170&q=95&f=ee95940a99c02547a13c42e35dbfbc84"
+                  alt="image"
+                />
+              </div>
+              <div class="div_te2">
+                <h4 class="font-weight-bold h3">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h4>
+                <p>
+                  All Access + Weekly Delivery.Choose A Membership That's
+                  Perfect for You!
+                </p>
+                <button class="btn font-weight-bold spec_button btn-danger">
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 col-12">
+            <div>
+              <h5 class="title_com">NEWSLETTER</h5>
+            </div>
+            <div class="h-100 w-100">
+              <div class="d-flex w-100 flex-column h-50 col-12">
+                <img
+                  class="img_sub"
+                  src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+                  alt="image"
+                />
+                <div class="text-center">
+                  <h4 class="font-weight-bold h3">The Starting 5</h4>
+                  <p>
+                    See why nearly a quarter of a million subscribers begin
+                    their day with the Starting 5.
+                  </p>
+                  <form class="forms d-flex flex-row">
+                    <input
+                      class="cont_form border"
+                      type="email"
+                      id="email"
+                      placeholder="Enter email"
+                    />
+                    <button
+                      class="btn btn-danger cont_form font-weight-bold text-white rounded"
+                      type="submit"
+                    >
+                      FREE SIGN UP
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <!-- MAIN 2 -->
       <div class="hide">
@@ -2070,7 +2651,7 @@
             </article>
             <article
               class="px-3 py-4 border rounded first_form"
-              style="background-color: #f4f5f6;"
+              style="background-color: #f4f5f6"
             >
               <div class="d-flex text-left align-items-center">
                 <a href="#" class="h4 font-weight-bold title_form">N</a>
