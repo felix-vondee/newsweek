@@ -668,7 +668,7 @@ footer {
 
   ul > li > a {
     font-size: 16px;
-    transition: all 0.1s;
+    transition: all 0.2s;
   }
 
   ul > li > a:hover {
