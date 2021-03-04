@@ -421,12 +421,6 @@ main {
   background-color: #f72210;
 }
 
-/* .magazin_cont > div > div > h4 {
-  font-size: 19px;
-  padding: 4px;
-  color: #f72210;
-} */
-
 .image_mag > h5 {
   margin-bottom: 0;
   padding: 5px 15px 6px;
@@ -670,6 +664,17 @@ footer {
 @media (min-width: 768px) {
   .nav_top2 {
     justify-content: flex-end;
+  }
+
+  ul > li > a {
+    font-size: 16px;
+    transition: all 0.1s;
+  }
+
+  ul > li > a:hover {
+    font-size: 20px;
+    color: aqua;
+    transition: all 1s 0.1s;
   }
 
   .hide {
