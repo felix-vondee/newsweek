@@ -9,6 +9,7 @@
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -151,6 +152,7 @@ h6 > a:hover {
   border-top: 1px solid #f4f5f7;
   border-bottom: 1px solid #f4f5f7;
 }
+
 .title_cont_l {
   animation: transitionIn 0.75s;
 }
