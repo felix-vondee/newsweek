@@ -1,0 +1,825 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* desktop navbar */
+
+.top_nav {
+  background-color: #f72210;
+  height: 95px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.top_nav > div > img {
+  width: 366px;
+  height: 85px;
+  cursor: pointer;
+}
+
+.top_nav > div {
+  margin-bottom: 10px;
+}
+
+.top_mar {
+  margin-right: 20px;
+}
+
+.top_nav > p {
+  color: white;
+  font-size: 15px;
+}
+
+#go_right {
+  margin-left: 15px;
+}
+
+h4 > a {
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 20px;
+}
+
+h6 > a {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+h5 > a {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.in_images > a {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: #3581f4;
+}
+
+.nav_bot1 > a {
+  font-size: 14px;
+  color: #666;
+}
+
+h5 > a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+ul > li {
+  column-gap: 10px;
+}
+
+.nav_bar_mid {
+  width: 100%;
+  height: 54px;
+}
+
+h4 > a:hover {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+h6 > a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+.nav_bar_mid > li {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  border-left: 1px solid #d9d9d9;
+}
+
+.nav_bar_mid > li > a {
+  color: black;
+  font-weight: bold;
+}
+
+.search_part {
+  gap: 10px;
+}
+
+#border_red {
+  border-top: 20px solid red;
+  border-left: 20px solid #f4f5f6;
+}
+
+.last_nav {
+  height: 46px;
+  width: 100%;
+  border-top: 1px solid #f4f5f7;
+  border-bottom: 1px solid #f4f5f7;
+}
+
+.first_button {
+  font-size: 12px;
+  height: 25px;
+  border-radius: 24px;
+  background-color: #ffe400;
+}
+
+.div_gap1 {
+  column-gap: 20px;
+}
+
+.div_gap2 {
+  column-gap: 20px;
+}
+
+.title_sec {
+  background-color: #f61602;
+  font-size: 20px;
+  color: white;
+  padding: 5px 8px 5px 8px;
+}
+
+.editor_title {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.in_images {
+  background-image: url(https://d.newsweek.com/en/full/1701186/ph3095-01.jpg?w=500&h=333&f=b8162daf93e087918df15d58a79bfc35);
+  height: 200px;
+}
+
+.title_form {
+  background-color: #f72210;
+  padding: 5px 9px 5px 9px;
+  color: white;
+}
+
+.nav_bar_bot {
+  height: 100%;
+  width: 100%;
+}
+
+.nav_bar_bot > li {
+  margin: auto;
+}
+
+.nav_bar_bot > li > a {
+  color: #807f84;
+}
+
+.text_deco > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_bot2 > ul > li > a {
+  font-size: 14px;
+  color: #666;
+}
+
+.border_top > div > a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_bar_mid > li > a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav_bar_bot > li > a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* phone navbar */
+
+#phone_navbar {
+  background-color: #f72210;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#phone_cont {
+  width: 95%;
+}
+
+.part1 > article {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.part2 > article {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.magazin_cont > div > div {
+  gap: 10px;
+  padding: 15px 0 0 0;
+}
+
+.editor_cont > div > div {
+  gap: 10px;
+  padding: 15px 0 0 0;
+}
+
+#phone_cont > div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+#phone_navbar > div > img {
+  cursor: pointer;
+  width: 132px;
+  height: 30px;
+}
+
+#user {
+  color: #fdc7c3;
+}
+
+#menu {
+  color: #fb9b93;
+  font-size: larger;
+}
+
+/* phone main */
+
+main {
+  background-color: #f4f5f6;
+  height: auto;
+  margin-top: 20px;
+}
+
+.section_cont {
+  background-color: white;
+}
+
+.featured {
+  row-gap: 15px;
+}
+
+.topstory {
+  row-gap: 15px;
+}
+
+.background1 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&amp;h=265&amp;q=90&amp;f=d759057143d283aa0ea0ed13fba5450a);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.background1 > p {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.background2 {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711649/biden-speaks-delaware.webp?w=591&h=364&f=400256ef3c52b699d57e5db01061d213);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+}
+
+.background2 > p {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.section2 {
+  row-gap: 25px;
+}
+
+.section2_under {
+  margin-top: 10px;
+  row-gap: 5px;
+}
+
+.small_img {
+  width: 100%;
+}
+
+.img_litle {
+  width: 95px;
+  height: 95px;
+}
+
+.text_div {
+  column-gap: 20px;
+}
+
+.line {
+  height: 3px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.debate_cont {
+  row-gap: 20px;
+}
+
+.col3_title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.col3_text {
+  font-weight: bold;
+  color: #555;
+}
+
+.small_icon {
+  width: 63px;
+  height: 63px;
+}
+
+.col2_title {
+  color: #818181;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.col2_title:hover {
+  text-decoration: none;
+  color: #818181;
+}
+
+.list_3 > li {
+  padding: 10px 0 10px 0;
+}
+
+/* magazin part */
+
+.image_mag {
+  background-image: url(https://d.newsweek.com/en/full/1704591/cover-january-22-2021.webp?w=290&h=387&q=90&f=2a6659a3d39362991dce870c3c982d89);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.magazin_cont {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  padding-top: 20px;
+}
+
+.test {
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.magazin_cont > div > div > h3 {
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+  background-color: #f72210;
+}
+
+.image_mag > h5 {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.editor_cont {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  padding-top: 20px;
+}
+
+.editor_cont > div > div > h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  padding: 4px;
+  background-color: #f72210;
+}
+
+#magazin_editor > div > div > h4 {
+  font-size: 23px;
+  padding: 4px;
+  color: #f72210;
+}
+
+.cont_editor {
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711224/israel-tanks-border-syria-golan.webp?w=397&h=265&f=7808a219e546114ab901f153186bd843);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.cont_editor > h5 {
+  margin-bottom: 0;
+  padding: 5px 15px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: large;
+  color: red;
+}
+
+.title_com {
+  font-size: 18px;
+  padding: 4px;
+  color: #f72210;
+  font-weight: bold;
+}
+
+.section_ug {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.bottom_img {
+  width: 100%;
+}
+
+.img_pos {
+  width: 258px;
+  height: 258px;
+}
+
+.image_sov {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.sub {
+  background-color: #f4f5f6;
+  padding-top: 30px;
+  column-gap: 20px;
+  padding-bottom: 40px;
+}
+
+.cont_form {
+  width: 100%;
+  height: 35px;
+}
+
+.first_form {
+  width: 70%;
+  margin: auto;
+}
+
+.form_in {
+  width: 90%;
+  margin: auto;
+}
+
+.forms > button {
+  background-color: #f61602;
+}
+
+.forms {
+  row-gap: 10px;
+}
+
+.img_sub {
+  background-position: center;
+  background-size: cover;
+}
+
+.div_te {
+  margin-left: 20%;
+}
+
+.div_te2 {
+  margin-top: 180px;
+  z-index: 2;
+}
+
+.test3 {
+  row-gap: 30px;
+}
+
+/* phone footer */
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.nav_top1 {
+  flex-direction: column;
+}
+
+.nav_top {
+  margin-bottom: 20px;
+}
+
+#logo_bot {
+  width: 250px;
+}
+
+.nav_top2 {
+  column-gap: 15px;
+  margin-top: 12px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #666;
+  margin: auto;
+  margin-top: 12px;
+}
+
+.nav_top2 > a > i {
+  font-size: 25px;
+  color: #666;
+}
+
+.nav_bot1 {
+  column-gap: 20px;
+  margin-top: 10px;
+}
+
+#title_editors {
+  color: #666;
+  font-weight: bold;
+}
+
+.nav_bot2 {
+  gap: 10px;
+}
+
+.nav_bot2 > ul {
+  column-gap: 20px;
+}
+
+.nav_bot2 > ul > li > a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#hide {
+  display: none;
+}
+
+.border_top {
+  border-top: 1px solid #d9d9d9;
+}
+
+#nav_hide {
+  display: none;
+}
+
+.special_rec {
+  margin-top: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.hide_phone {
+  display: initial;
+}
+
+.art {
+  display: none;
+}
+
+.news_letter {
+  height: 90%;
+}
+
+.sub_button_bot {
+  background-color: red;
+}
+
+.sec_subnew {
+  padding-top: 40px;
+}
+
+.editor_tit {
+  padding: 30px 0 10px 0;
+}
+
+.magazine_tit {
+  padding: 30px 0 10px 0;
+}
+
+.spec_button {
+  background-color: #f61602;
+}
+
+.sub_cont_sp {
+  padding-top: 40px;
+}
+
+/* media querry */
+
+@media (min-width: 768px) {
+  .nav_top2 {
+    justify-content: flex-end;
+  }
+
+  ul > li > a {
+    font-size: 16px;
+    transition: all 0.5s;
+  }
+
+  ul > li > a:hover {
+    font-size: 20px;
+  }
+
+  .hide {
+    display: inline;
+  }
+
+  .art {
+    display: none;
+  }
+
+  .pos {
+    position: relative;
+    top: -11px;
+  }
+
+  .deb {
+    position: relative;
+    top: -20px;
+  }
+
+  .image_mag {
+    height: 90%;
+  }
+
+  .img_pos {
+    width: 110px;
+    height: 110px;
+  }
+
+  .cont_editor {
+    height: 250px;
+  }
+
+  .form_in {
+    width: 45%;
+    margin: auto;
+  }
+
+  .gap_nedd {
+    margin-top: 20px;
+  }
+
+  .nav_top1 {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
+  .hide_phone {
+    display: none;
+  }
+
+  #user {
+    display: none;
+  }
+
+  .first_form {
+    width: 45%;
+    margin: auto;
+    background-color: #f4f5f6;
+  }
+
+  body {
+    display: grid;
+  }
+
+  main {
+    margin-top: 53px;
+  }
+
+  .magazin_cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .editor_cont {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #hide {
+    display: inline;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .section3 > article {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #phone_cont > div > button {
+    width: 120px;
+  }
+
+  #phone_cont > div > i {
+    font-size: 30px;
+  }
+
+  #phone_navbar {
+    margin: -50px auto;
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  #nav_hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    right: 0;
+    margin: auto;
+  }
+
+  .cont_editor {
+    height: 200px;
+  }
+
+  .first_form {
+    width: unset;
+    margin: unset;
+  }
+
+  .form_in {
+    width: unset;
+    margin: unset;
+  }
+
+  main {
+    margin-top: 194px;
+  }
+
+  #phone_navbar {
+    margin: -50px auto;
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+  }
+
+  .magazin_cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .editor_cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
